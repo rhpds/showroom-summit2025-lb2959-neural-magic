@@ -1,6 +1,6 @@
 ---
 site:
-  title: Showroom Template Demo
+  title: Optimizing LLMs for inference with vLLM on RHEL Al and Red Hat OpenShift Al
   url: https://redhat-scholars.github.io/course-template
   start_page: modules::index.adoc
 
