@@ -1,7 +1,7 @@
 ---
 site:
   title: Optimizing LLMs for inference with vLLM on RHEL Al and Red Hat OpenShift Al
-  url: https://redhat-scholars.github.io/course-template
+  url: https://github.com/rhpds/showroom-summit2025-lb2959-neural-magic.git
   start_page: modules::index.adoc
 
 content:

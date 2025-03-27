@@ -1,7 +1,36 @@
-* xref:module-01.adoc[1. RPM Native Container]
-** xref:module-01.adoc#repositories[Repositories]
-** xref:module-01.adoc#software[Software]
+//* xref:module-01.adoc[1. RPM Native Container]
+//** xref:module-01.adoc#repositories[Repositories]
+//** xref:module-01.adoc#software[Software]
 
-* xref:module-02.adoc[2. GitHub Sourced Container]
-** xref:module-02.adoc#prerequisites[Install Prerequisites]
-** xref:module-02.adoc#container[Enable Container]
+//* xref:module-02.adoc[2. GitHub Sourced Container]
+//** xref:module-02.adoc#prerequisites[Install Prerequisites]
+//** xref:module-02.adoc#container[Enable Container]
+
+* 1. Background
+** xref:01-01-llms.adoc[1.1 What are LLMs?]
+** xref:01-02-neural-networks.adoc[1.2 What are Neural Networks?]
+** xref:01-03-openshift-ai.adoc[1.3 OpenShift AI]
+** xref:01-04-model-optimization.adoc[1.4 Model Optimization Techniques]
+** xref:01-05-nm.adoc[1.5 Neural Magic Solutions]
+
+* 2. Connection and Setup ({user})
+** xref:02-01-getting-connected.adoc[2.1 Getting connected]
+** xref:02-02-creating-project.adoc[2.2 Creating your project and pipeline server]
+** xref:02-03-creating-workbench.adoc[2.3 Creating your workbench]
+// ** xref:02-04-creating-pipeline.adoc[2.4 Creating your pipeline]
+
+* 3. Workbench: Working with LLM Compressor
+** xref:03-01-int-4-quantization.adoc[3.1 Weights Only Quantization (INT-4)]
+** xref:03-02-int-8-quantization.adoc[3.2 Weights and Activation Quantization (INT-8)]
+** xref:03-03-fp-8-quantization.adoc[3.3 Weights and Activation Quantization (FP-8)]
+
+* 4. Model Performance ComparisonImage Processing
+** xref:04-01-base-model.adoc[4.1 Serving Base Models]
+** xref:04-02-optimized-model.adoc[4.2 Serving Optimized Models]
+
+* 5. Pipelines: Working with LLM Compressor
+** xref:05-01-quantization-pipeline.adoc[5.1 Quantization with Pipelines]
+** xref:05-02-quantization-pipeline-exercise.adoc[5.2 Exercise]
+
+* 6. End of Lab
+** xref:06-01-end-of-lab.adoc[6.1 Thanks]

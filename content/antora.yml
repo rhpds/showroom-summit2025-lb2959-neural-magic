@@ -14,6 +14,16 @@ asciidoc:
     ssh_user: devops
     ssh_password: devops
     ssh_command: ssh someone@example.com
+    git-clone-repo-url: https://github.com/rhpds/showroom-summit2025-lb2959-neural-magic.git
+    git-clone-repo-branch: main
+    user: userX
+    password: openshift
+    openshift_console_url: https://PLACEHOLDER-URL.com/
+    openshift_cluster_api_domain: PLACEHOLDER-URL.com
+    openshift_cluster_ingress_domain: PLACEHOLDER-URL.com
+    rhoai_dashboard_url: https://rhods-dashboard-redhat-ods-applications.{openshift_cluster_ingress_domain}/
+    minio_dashboard_url: https://minio-ui-wksp-{user}.{openshift_cluster_ingress_domain}/
+    login_command: oc login --insecure-skip-tls-verify=false -u userX -p openshift https://{openshift_cluster_ingress_domain}:6443"
     page-links:
     - url: https://redhat.com
       text: Red Hat
