@@ -42,6 +42,6 @@ Current implementation hardcodes `nvidia.com/gpu` as the accelerator type
 1. Choose one or more of these areas for improvement
 2. Implement the parametrization of your chosen components
 3. Test the enhanced pipeline with different configurations
-4. *Bonus*: Send a PR to add it to the official material at link:https://github.com/rhpds/showroom-summit2025-lb2959-neural-magic/pulls[pull request^]
+4. *Bonus*: Send a PR to add it to the official material at https://github.com/rhpds/showroom-summit2025-lb2959-neural-magic/pulls[pull request^]
 
 This exercise will help you understand the pipeline's architecture while making it more versatile for different use cases and environments. 
