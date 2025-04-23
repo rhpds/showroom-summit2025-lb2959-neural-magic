@@ -29,6 +29,10 @@ Go to the workbench created in the previous section (Section 2). From the `neura
 [.bordershadow]
 image::03/03-01-int4-notebook.png[]
 
+To execute the cells you can select them and either click on the **play** icon or press **Shift + Enter**
+[.bordershadow]
+image::03/03-execute-cell.png[]
+
 When done, you can close the notebook and head to the next page.
 
 IMPORTANT: 🚨 Once you complete all the quantization exercises and you no longer need the workbench, ensure you **stop it** so that the associated GPU gets freed and can be utilized to serve the model.
