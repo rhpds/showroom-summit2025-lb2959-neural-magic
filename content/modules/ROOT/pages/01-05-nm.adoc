@@ -1,7 +1,7 @@
 = Neural Magic Solutions
 include::_attributes.adoc[]
 
-Neural Magic, established in 2018 by MIT professor Nir Shavit and research scientist Alex Matveev, is a Series-A company specializing in AI model optimization and accelerated inference serving. Headquartered in Somerville, MA, the company focuses on enabling enterprise deployment of open-source machine learning models across edge, datacenter, and cloud environments.
+Neural Magic was acquired in January 2025 by Red Hat. It was created in 2018 by MIT professor Nir Shavit and research scientist Alex Matveev, specializing in AI model optimization and accelerated inference serving. The company focuses on enabling enterprise deployment of open-source machine learning models across edge, datacenter, and cloud environments.
 
 == Company Overview
 
