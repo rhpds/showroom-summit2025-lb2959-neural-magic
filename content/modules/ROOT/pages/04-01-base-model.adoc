@@ -40,6 +40,7 @@ image::04/04-01-model-status.png[]
 == Test the Base Model
 
 Congratulations on successfully deploying your model! 🎉 Now, it's time to put it to the test. Get ready to send a request to your model and measure its response time. Let's dive in!
+
 === Workbench Setup
 
 Similarly to Section 2.3, go to **Data Science Projects**, select your previously created project (`{user}`), and:

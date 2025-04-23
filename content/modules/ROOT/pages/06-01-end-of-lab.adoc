@@ -14,5 +14,7 @@ Make note of this URL as it will be updated with new content as we continue to i
 Here is a list of people who have participated to the creation and delivery of this lab.
 
 * Luis Tomás Bolívar
+* Rob Shaw
+* Tony Kay
 * Alireza Rahmani
 * Juliano Mohr

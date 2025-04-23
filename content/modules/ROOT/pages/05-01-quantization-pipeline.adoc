@@ -17,7 +17,7 @@ The pipeline consists of the following stages:
 
 * Python 3.12
 * Kubeflow Pipelines SDK (`kfp` and `kfp_kubernetes`)
-* Access to OpenShift AI (formerly Red Hat OpenShift Data Science)
+* Access to OpenShift AI
 * S3-compatible storage data connection configured in OpenShift AI
 
 == Workbench Installation Instructions

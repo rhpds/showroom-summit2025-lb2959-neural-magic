@@ -33,7 +33,6 @@ NOTE: Once single-model option has been selected for the Data Science project, t
 
 Now that the optimized model is deployed, it's time to put it to the test and compare it with the base mode. Get ready to send a request to your model and measure its response time.
 
-
 === Workbench Setup
 
 We are going to reuse the workbench created in Section 4.1.
