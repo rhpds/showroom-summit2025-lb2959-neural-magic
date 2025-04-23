@@ -32,6 +32,10 @@ To execute the cells you can select them and either click on the **play** icon o
 [.bordershadow]
 image::03/03-execute-cell.png[]
 
+When the cell is being executed, you can see **[*]**. And once the execution has completed, you will see a number instead of the *, e.g., **[1]**
+[.bordershadow]
+image::03/03-cell-status.png[]
+
 When done, you can close the notebook and head to the next page.
 
 IMPORTANT: 🚨 Once you complete all the quantization exercises and you no longer need the workbench, ensure you **stop it** so that the associated GPU gets freed and can be utilized to serve the model.
