@@ -15,6 +15,7 @@ asciidoc:
     ssh_password: devops
     ssh_command: ssh someone@example.com
     git-clone-repo-url: https://github.com/rhpds/showroom-summit2025-lb2959-neural-magic.git
+    git-clone-repo-name: showroom-summit2025-lb2959-neural-magic
     git-clone-repo-branch: main
     user: userX
     password: openshift

@@ -59,7 +59,7 @@ image::04/04-wb-ready.png[]
 [.bordershadow]
 image::04/04-wb-terminal.png[]
 
-* **Clone the repository** `{git-clone-repo-url}` and go to the `neural-magic-workshop/lab-materials/04` folder.
+* **Clone the repository** `{git-clone-repo-url}` and go to the `{git-clone-repo-name}/lab-materials/04` folder.
 +
 [.bordershadow]
 image::04/04-wb-clone.png[]
