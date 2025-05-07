@@ -7,7 +7,31 @@ We hope that the materials we used during this time together were useful and gav
 If you notice https://github.com/rhpds/showroom-summit2025-lb2959-neural-magic/issues[issues,window=_blank] with the content and/or want to send us a https://github.com/rhpds/showroom-summit2025-lb2959-neural-magic/pulls[pull request,window=_blank], we'll appreciate it very much.
 
 The instructions of this lab are always available at https://rhpds.github.io/showroom-summit2025-lb2959-neural-magic/[https://rhpds.github.io/showroom-summit2025-lb2959-neural-magic/,window=_blank].
-Make note of this URL as it will be updated with new content as we continue to improve the lab.
+
+== What you learnt
+
+During this lab, you have gained hands-on experience with:
+
+* **OpenShift AI Platform**
+  ** Creating and managing Data Science Projects
+  ** Setting up Data Connections
+  ** Configuring Pipeline Servers
+  ** Working with Workbenches
+  ** Designing and implementing Pipelines
+
+* **Model Optimization with llm-compressor**
+  ** Using llm-compressor to optimize models
+  ** Applying optimization techniques through Workbenches and Pipelines
+  ** Understanding different quantization approaches (int4, fp8, int8)
+
+* **Model Evaluation**
+  ** Using lm-eval to assess model performance
+  ** Comparing model metrics before and after optimization
+
+* **Model Deployment**
+  ** Deploying models using vLLM through OpenShift AI
+  ** Comparing performance between base and optimized models
+  ** Understanding the impact of optimization on inference efficiency
 
 == Acknowledgements
 
