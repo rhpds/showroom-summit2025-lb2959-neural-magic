@@ -1,13 +1,13 @@
-= Neural Magic Solutions
+= Red Hat AI Model Optimization Solutions - Neural Magic
 include::_attributes.adoc[]
 
-Neural Magic was acquired in January 2025 by Red Hat. It was created in 2018 by MIT professor Nir Shavit and research scientist Alex Matveev, specializing in AI model optimization and accelerated inference serving. The company focuses on enabling enterprise deployment of open-source machine learning models across edge, datacenter, and cloud environments.
+Red Hat has enhanced its AI capabilities through the acquisition of Neural Magic in January 2025. Building on Neural Magic's foundation in AI model optimization and accelerated inference serving, Red Hat now offers enterprise-grade solutions for deploying open-source machine learning models across edge, datacenter, and cloud environments.
 
-== Company Overview
+Neural Magic was created in 2018 by MIT professor Nir Shavit and research scientist Alex Matveev, specializing in AI model optimization and accelerated inference serving. The company focused on enabling enterprise deployment of open-source machine learning models across edge, datacenter, and cloud environments.
 
-Neural Magic is a pioneering AI software company focused on optimizing and accelerating machine learning models for efficient deployment across various computing environments, including cloud, data centers, and edge devices. Their core innovations involve *sparsification*, *quantization*, and *efficient inference serving*, allowing AI models to run smoothly on standard CPUs and GPUs without sacrificing performance.
+== Red Hat AI Model Optimization Suite
 
-== Neural Magic Product Suite
+Red Hat's AI model optimization solutions, powered by Neural Magic technology, focus on optimizing and accelerating machine learning models for efficient deployment across various computing environments, including cloud, data centers, and edge devices. Neural Magic core innovations involve *sparsification*, *quantization*, and *efficient inference serving*, allowing AI models to run smoothly on standard CPUs and GPUs without sacrificing performance.
 
 === DeepSparse: High-Performance AI Inference on CPUs
 
@@ -63,7 +63,7 @@ https://github.com/vllm-project/llm-compressor[Explore LLM-Compressor on GitHub^
 
 === vLLM Integration: Efficient Large Language Model Processing
 
-vLLM is a high-performance, memory-efficient inference and serving engine for Large Language Models (LLMs). Neural Magic provides optimized integration with vLLM to enable fast and cost-effective LLM deployment.
+Red Hat provides optimized integration with vLLM to enable fast and cost-effective LLM deployment, building on vLLM's high-performance, memory-efficient inference and serving engine for Large Language Models (LLMs).
 
 * *Core technologies:*
 ** *PagedAttention:* Efficiently manages attention key and value memory, significantly reducing memory usage
@@ -112,9 +112,9 @@ https://docs.vllm.ai/en/latest/[vLLM Documentation^] +
 https://github.com/vllm-project/vllm[vLLM GitHub Repository^] +
 https://neuralmagic.com/nm-vllm/[Learn more about Neural Magic's vLLM integration^]
 
-== Neural Magic and Red Hat AI
+== Red Hat AI Solutions
 
-Neural Magic's AI optimizations complement *Red Hat OpenShift AI* and *RHEL AI*, enabling:
+Red Hat's AI model optimization capabilities, enhanced by Neural Magic technology, complement *Red Hat OpenShift AI* and *RHEL AI*, enabling:
 
 * *Optimized LLM deployments* across hybrid cloud environments
 * *Cost-effective AI inferencing* without expensive GPUs
