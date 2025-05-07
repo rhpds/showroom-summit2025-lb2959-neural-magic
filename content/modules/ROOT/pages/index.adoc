@@ -1,10 +1,18 @@
 = {lab_name}
 include::_attributes.adoc[]
 
-== Lab Overview
+[.lead]
+== What you will learn
 
-This lab will illustrate how to leverage Neural Magic's model optimization techniques (llm-compressor) on OpenShift AI to enable fitting your model to your hardware.
-You will learn how to achieve significant performance improvements and cost reductions through model sparsification and quantization.
+[.highlight]
+This lab will teach you how to optimize AI models using Red Hat's AI model optimization tools on OpenShift AI, focusing on:
+
+* **OpenShift AI Platform**: Get familiar with OpenShift AI's capabilities for data science projects.
+* **Model Optimization**: Master the use of *llm-compressor* to adapt models to your specific hardware.
+* **Quantization Techniques**: Learn different approaches to model quantization (int4, fp8, int8).
+* **Model Evaluation**: Understand how to assess model performance using *lm-eval*.
+* **Deployment Optimization**: Leverage vLLM inference server through OpenShift AI for efficient model serving.
+
 
 The information, code, pipelines and techniques it contains are illustrations of what a first prototype could look like.
 
@@ -43,7 +51,6 @@ This lab makes use of "small" size large language models (LLM) for speeding up t
 == Repository
 
 This repository link:{git-clone-repo-url}[window=_blank] contains workshop materials and examples for creating optimized models with Neural Magic solutions on OpenShift.
-This workshop is part of the OpenShift Commons initiative.
 
 === Repository Structure
 
