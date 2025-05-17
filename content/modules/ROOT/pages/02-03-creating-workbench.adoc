@@ -43,6 +43,42 @@ image::02/02-02-accept.png[title="Accept Settings", link=self, window=blank, wid
 [.bordershadow]
 image::02/02-02-jupyter.png[title="Jupyter", link=self, window=blank, width=100%]
 
+
+== JupyterLab and Jupyter Notebooks 
+
+[NOTE]
+====
+Workbenches utilize JupyterLab, an interactive development environment you'll access directly through your web browser. Think of JupyterLab as a workbench that's excellent for hands-on experimentation, which is especially useful in AI development.
+
+Within JupyterLab, we'll be using Jupyter Notebooks. A Notebook is like an interactive document where you can:
+
+* Write and execute Python code in small, manageable cells.
+* Instantly see the output from your code.
+* Easily modify code and vars and re-execute 
+* Combine code with explanatory text (like this!), images, and charts, all in one place.
+This combination makes Notebooks ideal for learning new concepts and testing ideas step-by-step.
+
+.Quick interactive introduction to using and customizing your Workbench (recommended)
+
+(This Interactive demo was recorded using a Virtual Machine Based Jupyter Lab but behaves in exactly the same way.)
+++++
+<iframe 
+  src="https://demo.arcade.software/eF1CtDuuD4hKWspBmiYR?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true"
+  width="100%" 
+  height="600px" 
+  frameborder="0" 
+  allowfullscreen
+  webkitallowfullscreen
+  mozallowfullscreen
+  allow="clipboard-write"
+  muted>
+</iframe>
+++++
+====
+
+
+
+
 == 🌟 Git-Clone the Common Repo
 
 We will clone the content of our Git repo so that you can access all the materials created as part of our prototyping exercise. 📚
