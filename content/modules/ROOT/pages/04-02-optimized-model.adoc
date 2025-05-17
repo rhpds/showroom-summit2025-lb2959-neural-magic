@@ -1,5 +1,4 @@
 = Deploy and Test the Optimized Model
-include::_attributes.adoc[]
 
 == Deploy the Optimized Model with VLLM
 
@@ -12,7 +11,7 @@ To deploy a model you need to go to the created Data Science Project (`{user}`) 
 . **Deploy Your Model**: Click on the **Deploy model** button to start the deployment process.
 +
 [.bordershadow]
-image::04/04-01-deploy.png[]
+image::04/04-01-deploy.png[link=self, window=blank, width=100%]
 +
 NOTE: Once single-model option has been selected for the Data Science project, there is no need to select that again, it gets annotated on the `namespace`.
 
@@ -51,11 +50,11 @@ To fill in these variables, use the information from your deployed model:
 ** For the `URL`, check the `internal and external endpoints details` of your deployed model and use the **external endpoint**.
 +
 [.bordershadow]
-image::04/04-01-inference-endpoints.png[]
+image::04/04-01-inference-endpoints.png[link=self, window=blank, width=100%]
 ** Copy the model server `token` for the `API_KEY`.
 +
 [.bordershadow]
-image::04/04-01-inference-token.png[]
+image::04/04-01-inference-token.png[link=self, window=blank, width=100%]
 
 * The required dependencies should already be installed from the previous Section, but if not install the next package in the previously created terminal:
 +
@@ -90,6 +89,6 @@ When you're done testing, don’t forget to clean up. Simply click on the **Dele
 
 IMPORTANT: 🚨 Make sure to remove the model before proceeding to the next step to ensure you have enough GPUs available for your next tasks.
 [.bordershadow]
-image::04/04-01-model-delete.png[]
+image::04/04-01-model-delete.png[link=self, window=blank, width=100%]
 [.bordershadow]
-image::04/04-02-model-delete-optimized.png[]
+image::04/04-02-model-delete-optimized.png[link=self, window=blank, width=100%]
