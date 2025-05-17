@@ -1,5 +1,4 @@
 = Thank you for your participation
-include::_attributes.adoc[]
 
 We hope that the materials we used during this time together were useful and gave you a better understanding of OpenShift AI, Workbenches, Pipelines, Model Serving and Model Optimization techniques.
 
@@ -39,6 +38,6 @@ Here is a list of people who have participated to the creation and delivery of t
 
 * Luis Tomás Bolívar
 * Rob Shaw
-* Tony Kay
 * Alireza Rahmani
 * Juliano Mohr
+* Tony Kay

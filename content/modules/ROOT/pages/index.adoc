@@ -1,16 +1,15 @@
 = {lab_name}
-include::_attributes.adoc[]
 
 [.lead]
 == What you will learn
 
 [.highlight]
-This lab will teach you how to optimize AI models using Red Hat's AI model optimization tools on OpenShift AI, focusing on:
+This lab will teach you how to optimize AI models using Red Hat's AI model optimization tools on Red Hat OpenShift(R) AI, focusing on:
 
 * **OpenShift AI Platform**: Get familiar with OpenShift AI's capabilities for data science projects.
-* **Model Optimization**: Master the use of *llm-compressor* to adapt models to your specific hardware.
+* **Model Optimization**: Master the use of `llm-compressor` to adapt models to your specific hardware.
 * **Quantization Techniques**: Learn different approaches to model quantization (int4, fp8, int8).
-* **Model Evaluation**: Understand how to assess model performance using *lm-eval*.
+* **Model Evaluation**: Understand how to assess model performance using `lm-eval`.
 * **Deployment Optimization**: Leverage vLLM inference server through OpenShift AI for efficient model serving.
 
 
@@ -29,8 +28,8 @@ This lab is designed to provide you with a structured approach to understanding 
   ** Define Pipelines: Design the pathways through which your data will flow, optimizing each step of the process.
 
 * Optimize Models with *llm-compressor*
-  ** Engage in the optimization process by utilizing the *llm-compressor* to enhance your models.
-  ** Through Workbenches and Pipelines
+  ** Engage in the optimization process by utilizing the `llm-compressor` to enhance your models.
+  ** Work with `llm-compressor` through Workbenches and Pipelines
   ** Apply optimization techniques directly within your workbench and pipelines to improve model performance.
 
 * Evaluate Models with *lm-eval*

@@ -1,5 +1,4 @@
 = Model Optimization Techniques
-include::_attributes.adoc[]
 
 Model optimization is a critical aspect of deploying efficient AI systems, especially when working with large, resource-intensive models. These techniques allow AI practitioners to reduce computational requirements while maintaining model performance.
 
