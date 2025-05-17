@@ -24,7 +24,7 @@ image::03/03-restart-kernel.png[title="Restart Kernel", link=self, window=blank,
 
 == Exercise: Quantize the Model with llm-compressor
 
-Go to the workbench created in the previous section (Section 2). From the `neural-magic-workshop/lab-materials/03` folder, please open the notebook called `weight_only_quantization.ipynb` and follow the instructions.
+Go to the workbench created in the previous section (Section 2). From the `showroom-summit2025-lb2959-neural-magic/lab-materials/03` folder, please open the notebook called `weight_only_quantization.ipynb` and follow the instructions.
 [.bordershadow]
 image::03/03-01-int4-notebook.png[title="Notebook", link=self, window=blank, width=100%]
 
