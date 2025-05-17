@@ -1,6 +1,4 @@
 = Weights and Activation Quantization (INT8)
-include::_attributes.adoc[]
-
 
 In this exercise, we will use a notebook to investigate how LLMs weights and activations can be quantized to **INT8** for memory savings and inference acceleration. This quantization method is particularly useful for:
 
