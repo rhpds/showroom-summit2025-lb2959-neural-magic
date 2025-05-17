@@ -1,5 +1,4 @@
 = OpenShift AI
-include::_attributes.adoc[]
 
 *Red Hat® OpenShift® AI* is a flexible and scalable *artificial intelligence (AI) and machine learning (ML) platform* that enables enterprises to *build, deploy, and manage AI-powered applications* across *hybrid cloud environments*.
 

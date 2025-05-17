@@ -1,5 +1,4 @@
 = Red Hat AI Model Optimization Solutions - Neural Magic
-include::_attributes.adoc[]
 
 Red Hat has enhanced its AI capabilities through the acquisition of Neural Magic in January 2025. Building on Neural Magic's foundation in AI model optimization and accelerated inference serving, Red Hat now offers enterprise-grade solutions for deploying open-source machine learning models across edge, datacenter, and cloud environments.
 

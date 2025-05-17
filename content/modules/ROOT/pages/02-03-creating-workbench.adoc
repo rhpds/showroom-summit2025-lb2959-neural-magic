@@ -1,5 +1,4 @@
 = 🛠️ Creating a Workbench
-include::_attributes.adoc[]
 
 == 🚀 Launch a Workbench
 
@@ -7,7 +6,7 @@ include::_attributes.adoc[]
 * Go to **Data Science Projects**, select your previously created project (`{user}`), and click on **Create a workbench**
 +
 [.bordershadow]
-image::02/02-03-create-wb.png[]
+image::02/02-03-create-wb.png[title="Create Workbench", link=self, window=blank, width=100%]
 * Make sure it has the following characteristics:
 ** Choose a name for it, like: `My Workbench` 🌟
 ** Image Selection: `Minimal Python` or `Standard Data Science` 🐍
@@ -16,33 +15,33 @@ image::02/02-03-create-wb.png[]
 * That should look like:
 +
 [.bordershadow]
-image::02/02-02-launch-workbench-01.png[]
+image::02/02-02-launch-workbench-01.png[title="Launch Workbench", link=self, window=blank, width=100%]
 * Add the created Data Connection by clicking on the Connections section and selecting **Attach existing connections**. Then, click **Attach** for the created **Minio - models** connection. 🔗
 +
 [.bordershadow]
-image::02/02-03-add-dc.png[]
+image::02/02-03-add-dc.png[title="Add Data Connection", link=self, window=blank, width=100%]
 +
 [.bordershadow]
-image::02/02-03-attach-dc.png[]
+image::02/02-03-attach-dc.png[title="Attach Data Connection", link=self, window=blank, width=100%]
 
 * You should not need to modify any other Workbench settings (such as Storage).
 * Then, click on **Create Workbench** and wait for your workbench to be fully started. ⏳
 * Once it is, click the **Open** link to connect to it! 🔗
 +
 [.bordershadow]
-image::02/02-03-open-link.png[]
+image::02/02-03-open-link.png[title="Open Link", link=self, window=blank, width=100%]
 
 * Authenticate with the same credentials as earlier. 🔑
 * You will be asked to accept the following settings:
 +
 [.bordershadow]
-image::02/02-02-accept.png[]
+image::02/02-02-accept.png[title="Accept Settings", link=self, window=blank, width=100%]
 
 * Go ahead and do so! 👍
 * You should now see this:
 +
 [.bordershadow]
-image::02/02-02-jupyter.png[]
+image::02/02-02-jupyter.png[title="Jupyter", link=self, window=blank, width=100%]
 
 == 🌟 Git-Clone the Common Repo
 
@@ -52,7 +51,7 @@ We will clone the content of our Git repo so that you can access all the materia
 ** Open the Git UI in Jupyter:
 +
 [.bordershadow]
-image::02/git-clone-1.png[]
+image::02/git-clone-1.png[title="Git UI", link=self, window=blank, width=100%]
 +
 ** Enter the URL of the Git repo:
 +
@@ -64,6 +63,6 @@ image::02/git-clone-1.png[]
 ----
 +
 [.bordershadow]
-image::02/git-clone-2.png[]
+image::02/git-clone-2.png[title="Git Clone", link=self, window=blank, width=100%]
 
 At this point, your project is ready for the work we want to do in it. Let’s get started! 🚀
