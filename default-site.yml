@@ -1,6 +1,6 @@
 ---
 site:
-  title: Optimizing LLMs for inference with vLLM on RHEL Al and Red Hat OpenShift Al
+  title: "LB2959: Optimizing LLMs for inference with vLLM on RHEL Al and Red Hat OpenShift Al"
   url: https://github.com/rhpds/showroom-summit2025-lb2959-neural-magic.git
   start_page: modules::index.adoc
 
@@ -26,7 +26,7 @@ runtime:
 antora:
   extensions:
     - require: ./content/lib/dev-mode.js
-      enabled: true
+      enabled: false
 
 output:
   dir: ./www

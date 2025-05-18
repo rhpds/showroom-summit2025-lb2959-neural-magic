@@ -1,5 +1,4 @@
 = Deploy and Test the Base Model
-include::_attributes.adoc[]
 
 == Deploy the Base Model with VLLM
 
@@ -10,12 +9,12 @@ Ready to deploy your model? Let’s get started! Follow these steps to bring you
 . **Select the Service Platform**: Click on **Models** and choose the **Single-model service platform** option.
 +
 [.bordershadow]
-image::04/04-01-single-model.png[]
+image::04/04-01-single-model.png[link=self, window=blank, width=100%]
 
 . **Deploy Your Model**: Click on the **Deploy model** button to start the deployment process.
 +
 [.bordershadow]
-image::04/04-01-deploy.png[]
+image::04/04-01-deploy.png[link=self, window=blank, width=100%]
 
 . **Fill Out the Deployment Form**: You’ll need to provide some essential information. Here’s what to enter:
    * **Name**: `base`
@@ -29,12 +28,12 @@ image::04/04-01-deploy.png[]
    ** **Path**: `base_model`
 +
 [.bordershadow]
-image::04/04-01-model-inputs.png[]
+image::04/04-01-model-inputs.png[link=self, window=blank, width=100%]
 
 . **Deploy and Wait**: After filling out the form, click on **Deploy**. Now, wait while your model gets ready. This might take a moment! ☕
 +
 [.bordershadow]
-image::04/04-01-model-status.png[]
+image::04/04-01-model-status.png[link=self, window=blank, width=100%]
 
 
 == Test the Base Model
@@ -48,26 +47,26 @@ Similarly to Section 2.3, go to **Data Science Projects**, select your previousl
 * Click on **Create a workbench** to create a new workbench, named `terminal`. This time without attaching any GPU. Also, the `small` size should be enough.
 +
 [.bordershadow]
-image::04/04-wb-list.png[]
+image::04/04-wb-list.png[link=self, window=blank, width=100%]
 [.bordershadow]
-image::04/04-wb-creation.png[]
+image::04/04-wb-creation.png[link=self, window=blank, width=100%]
 [.bordershadow]
-image::04/04-wb-ready.png[]
+image::04/04-wb-ready.png[link=self, window=blank, width=100%]
 
 * Open the `terminal` workbench and create a terminal inside.
 +
 [.bordershadow]
-image::04/04-wb-terminal.png[]
+image::04/04-wb-terminal.png[link=self, window=blank, width=100%]
 
 * **Clone the repository** `{git-clone-repo-url}` and go to the `{git-clone-repo-name}/lab-materials/04` folder.
 +
 [.bordershadow]
-image::04/04-wb-clone.png[]
+image::04/04-wb-clone.png[link=self, window=blank, width=100%]
 
 * **Update Your Variables**: Open the `request.py` file and update the following variables to match your setup:
 +
 [.bordershadow]
-image::04/04-wb-request.png[]
+image::04/04-wb-request.png[link=self, window=blank, width=100%]
 [source,python]
 ----
 MODEL = "your-model-name"  # Replace with your model name
@@ -80,11 +79,11 @@ To fill in these variables, use the information from your deployed model:
 * For the `URL`, check the `internal and external endpoints details` of your deployed model and use the **external endpoint**.
 +
 [.bordershadow]
-image::04/04-01-inference-endpoints.png[]
+image::04/04-01-inference-endpoints.png[link=self, window=blank, width=100%]
 * Copy the model server `token` for the `API_KEY`.
 +
 [.bordershadow]
-image::04/04-01-inference-token.png[]
+image::04/04-01-inference-token.png[link=self, window=blank, width=100%]
 
 **Install the Required Dependency**: Go back to the created terminal and install the necessary package to interact with your model:
 [source,bash]
@@ -108,7 +107,7 @@ Once you run the script, you’ll see some exciting output, including:
 * System CPU time
 +
 [.bordershadow]
-image::04/04-request-base.png[]
+image::04/04-request-base.png[link=self, window=blank, width=100%]
 
 This is your chance to see how well your model performs! 🚀
 
@@ -119,6 +118,6 @@ When you're done testing, don’t forget to clean up. Simply click on the **Dele
 
 IMPORTANT: 🚨 Make sure to remove the model before proceeding to the next step to ensure you have enough GPUs available for your next tasks.
 [.bordershadow]
-image::04/04-01-model-delete.png[]
+image::04/04-01-model-delete.png[link=self, window=blank, width=100%]
 [.bordershadow]
-image::04/04-01-model-delete-base.png[]
+image::04/04-01-model-delete-base.png[link=self, window=blank, width=100%]

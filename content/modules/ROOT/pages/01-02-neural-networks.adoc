@@ -1,5 +1,4 @@
 = What are Neural Networks?
-include::_attributes.adoc[]
 
 A *neural network* is a type of algorithm used in machine learning, particularly suited for tasks involving complex, non-linear relationships in data. These networks are inspired by the structure and function of the human brain, consisting of interconnected units called neurons that process information in layers.
 

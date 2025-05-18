@@ -1,5 +1,4 @@
 = Weights and Activation Quantization (FP8)
-include::_attributes.adoc[]
 
 In this exercise, we will use a notebook to investigate how LLMs weights and activations can be quantized to **FP8** for memory savings and inference acceleration. This quantization method allows for:
 
@@ -20,26 +19,26 @@ The quantization process involves the following steps:
 
 IMPORTANT: 🚨 After quantizing the model, the GPU memory may not be freed. You need to **restart the kernel** before evaluating the model to ensure you have enough GPU RAM available.
 [.bordershadow]
-image::03/03-restart-kernel.png[]
+image::03/03-restart-kernel.png[title="Restart Kernel", link=self, window=blank, width=100%]
 
 == Exercise: Quantize the Model with llm-compressor
 
-Go to the workbench created in the previous section (Section 2). From the `neural-magic-workshop/lab-materials/03` folder, please open the notebook called `weight_activation_quantization_fp8.ipynb` and follow the instructions.
+Go to the workbench created in the previous section (Section 2). From the `showroom-summit2025-lb2959-neural-magic/lab-materials/03` folder, please open the notebook called `fp8_weight_activation_quantization.ipynb` and follow the instructions.
 [.bordershadow]
-image::03/03-03-fp8-notebook.png[]
+image::03/03-03-fp8-notebook.png[title="Notebook", link=self, window=blank, width=100%]
 
 To execute the cells you can select them and either click on the **play** icon or press **Shift + Enter**
 [.bordershadow]
-image::03/03-execute-cell.png[]
+image::03/03-execute-cell.png[title="Execute Cell", link=self, window=blank, width=100%]
 
 When the cell is being executed, you can see **[*]**. And once the execution has completed, you will see a number instead of the *, e.g., **[1]**
 [.bordershadow]
-image::03/03-cell-status.png[]
+image::03/03-cell-status.png[title="Cell Status", link=self, window=blank, width=100%]
 
 When done, you can close the notebook and head to the next page.
 
 IMPORTANT: 🚨 Once you complete all the quantization exercises and you no longer need the workbench, ensure you **stop it** so that the associated GPU gets freed and can be utilized to serve the model.
 [.bordershadow]
-image::03/03-workbench-done.png[]
+image::03/03-workbench-done.png[title="Workbench Done", link=self, window=blank, width=100%]
 [.bordershadow]
-image::03/03-workbench-stop.png[]
+image::03/03-workbench-stop.png[title="Workbench Stop", link=self, window=blank, width=100%]

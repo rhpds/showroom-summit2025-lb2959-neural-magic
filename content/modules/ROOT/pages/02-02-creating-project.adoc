@@ -1,5 +1,4 @@
 = Creating Your Project and Pipeline Server
-include::_attributes.adoc[]
 
 As a preliminary step, each of you is going to:
 
@@ -25,7 +24,7 @@ The instructions below will guide you through these steps. Follow them carefully
 * First, in the OpenShift AI Dashboard application, navigate to the Data Science Projects menu on the left:
 +
 [.bordershadow]
-image::02/02-02-ds-proj-nav.png[]
+image::02/02-02-ds-proj-nav.png[title="OpenShift AI Dashboard", link=self, window=blank, width=100%]
 
 * Create a project with the **same name** as your user ID
 ** You have been assigned a unique user ID:  `{user}`
@@ -38,7 +37,8 @@ IMPORTANT: 🚨 Your assigned user is {user}. Don't mess that up or things will 
 * It should look like this:
 +
 [.bordershadow]
-image::02/02-02-create-project.png[]
+image::02/02-02-create-project.png[title="Project", link=self, window=blank, width=100%]
+
 +
 IMPORTANT: 🚫 It should **NOT** be `userX` like in the screenshot. (for you, `X` should be a number instead)
 
@@ -48,12 +48,13 @@ IMPORTANT: 🚫 It should **NOT** be `userX` like in the screenshot. (for you, `
 * You will need to **create a connection** that points to it.
 +
 [.bordershadow]
-image::02/02-02-add-dc.png[]
+image::02/02-02-add-dc.png[title="Connection", link=self, window=blank, width=100%]
+
 
 * You need to select the connection type, in this case **S3 compatible object storage -v1**
 +
 [.bordershadow]
-image::02/02-02-add-dc-type.png[]
+image::02/02-02-add-dc-type.png[title="S3 comaptible object storage", link=self, window=blank, width=100%]
 
 * Here is the information you need to enter:
 ** Name:
@@ -98,7 +99,7 @@ IMPORTANT: 🚨 Once again, the bucket you will use has to match with the user I
 * The result should look similar to:
 +
 [.bordershadow]
-image::02/data-connection.png[]
+image::02/data-connection.png[title="Result", link=self, window=blank, width=100%]
 
 
 == 🛠️ Create a Pipeline Server
@@ -108,17 +109,17 @@ It is highly recommended to create your pipeline server before creating a workbe
 * In your Data Science Pipeline (project `{user}`), or in your Data Science Project, **Pipelines**, click on **Configure Pipeline Server**
 +
 [.bordershadow]
-image::02/02-02-pipelineserver01.png[]
+image::02/02-02-pipelineserver01.png[title="Pipeline Server 1", link=self, window=blank, width=100%]
 
 * Use the same information as in the Data Connection created earlier (**Minio - models**) and click the **Configure Pipeline Server** button:
 +
 [.bordershadow]
-image::02/02-02-pipelineserver02.png[]
+image::02/02-02-pipelineserver02.png[title="Pipeline Server 2", link=self, window=blank, width=100%]
 
 * When your pipeline server is ready, your screen will look like the following:
 +
 [.bordershadow]
-image::02/02-02-pipelineserver03.png[]
+image::02/02-02-pipelineserver03.png[title="Pipeline Server 3", link=self, window=blank, width=100%]
 
 At this point, your pipeline server is ready and deployed. 🎉
 
